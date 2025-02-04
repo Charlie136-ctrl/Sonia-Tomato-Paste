@@ -17,16 +17,17 @@
 /* large devices (desktop, 992px and up) */
 @media (min-width: 992px) {
     .sub-hero {
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
     .sub-hero h2 {
-        text-align: left;
+        text-align: center;
         width: 500px;
         margin: 0;
     }
+
     
     .sub-hero img {
         width: 400px;
@@ -50,5 +51,9 @@
 
     .about p {
         line-height: 1.5;
+    }
+
+    .sub-hero h2 {
+        font-size: 20px;
     }
 }
