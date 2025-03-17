@@ -16,13 +16,15 @@
     <!-- Hero -->
     <section class="hero">
     <h2>Sonia Tomato Paste</h2> 
-    <img src="./images.jpeg"/>
+    <img src="./images.jpeg"
+    width="500px"/>
     <h1>
         Imagine a vibrant splash of deep red tomatoes, glistening under the sun, surrounded by lush green leaves.
         In the foreground, a neatly designed jar of Sonia Tomato Paste proudly stands, with steam rising from a fresh
         pot of pasta sauce in the background.
     </h1>
-    <img src="./download (1).jpeg"/>
+    <img src="./download (1).jpeg"
+    width="500px"/>
 
 <!-- Sub-hero -->
 <section class="sub-hero">
@@ -45,10 +47,10 @@
         <br>
         Build Trust and Loyalty: Establish Sonia Tomato Paste as a trusted brand that consumers can rely on for consistency and excellence.
     </p>
-    <img src="./images (1).jpeg"/> <img src="./images (2).jpeg"/>
+    <img src="./images (1).jpeg" width="800px"/> <img src="./images (2).jpeg" width="800px"/>
 
     <h2> Creative Ways to Use Sonia Tomato Paste in Meals </h2>
-    <p>
+
     <ul>
         <li>Rich Tomato Sauces</li>
         <li>Savory Soups</li>
@@ -61,7 +63,7 @@
         <li>Homemade Ketchup Substitute</li>
         <li>Barbecue Sauce Base</li>
     </ul>
-    </p>
+
 </section>
 
 <!--About Us-->
@@ -114,5 +116,20 @@
     <p>Chat with us on Discord <a href="https://discord.gg/tHyxdW8V" />Charles</p>
 </section>
 </section>
+<script>
+    // Disable right-click menu
+    document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+    });
+
+    // Disable keyboard shortcuts
+    document.addEventListener('keydown', function(e) {
+      if (e.ctrlKey && e.shiftKey && e.keyCode === 73) { // Ctrl + Shift + I
+        e.preventDefault();
+      } else if (e.ctrlKey && e.keyCode === 85) { // Ctrl + U
+        e.preventDefault();
+      }
+    });
+  </script>
 </body>
 </html>

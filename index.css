@@ -63,7 +63,7 @@ nav a:hover {
 
 
 .sub-hero p {
-    text-align: left;
+    align-items: left;
     font-size: 20px;
 }
 
