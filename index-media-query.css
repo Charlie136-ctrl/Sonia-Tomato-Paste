@@ -66,7 +66,10 @@
         font-size: 20px;
     }
 
-    .sub-hero img {
-    
+    #contact {
+        background-color: green;
+        display: flex;
+        flex-direction: column;
+        width: 1350px;
     }
 }
